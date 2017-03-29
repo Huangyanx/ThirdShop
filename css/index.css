@@ -82,8 +82,7 @@
 	margin-right: 10px;
 }
 #top_lunbo{
-	padding-left:0; 
-	padding-right: 10px;
+
 }
  
 
@@ -98,7 +97,12 @@
  .one_screen{
  	margin-top: 30px!important;
  }
- 
+ .one_screen >div[class^='col']{
+	 padding-left:0;
+ }
+.one_screen .carousel_one li img{
+	width: 100%;
+}
 .one_screen .hot_item .hot_item_box{
 	margin-top: 15px;
 }
@@ -157,7 +161,7 @@ a{
 
 
 .guanggao{
-	padding: 0;
+	padding: 0!important;
 }
 .guanggao,.guanggao02{ 
 	transition: opacity .5s;
