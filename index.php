@@ -1251,7 +1251,6 @@
                                 </b>
 
                                     <img class="img-responsive" src="img/right01.png">
-                                </a>
                             </div>
                             <!-- 商品与图片end -->
                             <!-- 商品上隐藏的DIv -->
@@ -1288,7 +1287,6 @@
                                 </b>
 
                                     <img class="img-responsive" src="img/right01.png">
-                                </a>
                             </div>
                             <!-- 商品与图片end -->
                             <!-- 商品上隐藏的DIv -->
@@ -1323,43 +1321,6 @@
                             <div class="down_right_list_img">
                                 <b class="new"></b>
                                     <img class="img-responsive" src="img/right01.png">
-                                </a>
-                            </div>
-                            <!-- 商品与图片end -->
-                            <!-- 商品上隐藏的DIv -->
-                            <div class="add_cart_content">
-                                <div class="add_cart_btn">
-                                    <span href="javascript:;" title="详细" class="product_view" data-toggle="tooltip">
-                                        <i class="fa fa-eye"></i>
-                                    </span>
-                                    <span href="javascript:;"  title="收藏" class="product_conllect" data-toggle="tooltip">
-                                        <i class="fa fa-heart"></i>
-                                    </span>
-                                    <span href="javascript:;"  title="比较" class="product_compare " data-toggle="tooltip">
-                                        <i class="fa fa-retweet"></i>
-                                    </span>
-                                </div>
-                                <div class="btn_add_cart"  title="加入购物车" data-toggle="tooltip">	加入购物车
-                                </div>
-                            </div>
-                            <!-- 商品上隐藏的DIv end -->
-                            </div>
-                            <div  class="col-md-4 row down_right_list">
-                             <!-- 商品与图片 -->
-                            <div class="down_right_list_detail">
-                                桃子
-                            </div>
-                            <div class="down_right_list_start">
-                                星星
-                            </div>
-                            <div class="down_right_list_prince">
-                                $60
-                            </div>
-                            <div class="down_right_list_img">
-                                <b class="new"></b>
-
-                                    <img class="img-responsive" src="img/right01.png">
-                                </a>
                             </div>
                             <!-- 商品与图片end -->
                             <!-- 商品上隐藏的DIv -->
@@ -1395,7 +1356,6 @@
                                 <b class="new"></b>
 
                                     <img class="img-responsive" src="img/right01.png">
-                                </a>
                             </div>
                             <!-- 商品与图片end -->
                             <!-- 商品上隐藏的DIv -->
@@ -1431,7 +1391,41 @@
                                 <b class="new"></b>
 
                                     <img class="img-responsive" src="img/right01.png">
-                                </a>
+                            </div>
+                            <!-- 商品与图片end -->
+                            <!-- 商品上隐藏的DIv -->
+                            <div class="add_cart_content">
+                                <div class="add_cart_btn">
+                                    <span href="javascript:;" title="详细" class="product_view" data-toggle="tooltip">
+                                        <i class="fa fa-eye"></i>
+                                    </span>
+                                    <span href="javascript:;"  title="收藏" class="product_conllect" data-toggle="tooltip">
+                                        <i class="fa fa-heart"></i>
+                                    </span>
+                                    <span href="javascript:;"  title="比较" class="product_compare " data-toggle="tooltip">
+                                        <i class="fa fa-retweet"></i>
+                                    </span>
+                                </div>
+                                <div class="btn_add_cart"  title="加入购物车" data-toggle="tooltip">	加入购物车
+                                </div>
+                            </div>
+                            <!-- 商品上隐藏的DIv end -->
+                            </div>
+                            <div  class="col-md-4 row down_right_list">
+                             <!-- 商品与图片 -->
+                            <div class="down_right_list_detail">
+                                桃子
+                            </div>
+                            <div class="down_right_list_start">
+                                星星
+                            </div>
+                            <div class="down_right_list_prince">
+                                $60
+                            </div>
+                            <div class="down_right_list_img">
+                                <b class="new"></b>
+
+                                    <img class="img-responsive" src="img/right01.png">
                             </div>
                             <!-- 商品与图片end -->
                             <!-- 商品上隐藏的DIv -->
@@ -1469,7 +1463,6 @@
                                 <b class="new"></b>
 
                                     <img class="img-responsive" src="img/right01.png">
-                                </a>
                             </div>
                             <!-- 商品与图片end -->
                             <!-- 商品上隐藏的DIv -->
@@ -1505,7 +1498,6 @@
                                 <b class="new"></b>
 
                                     <img class="img-responsive" src="img/right01.png">
-                                </a>
                             </div>
                             <!-- 商品与图片end -->
                             <!-- 商品上隐藏的DIv -->
@@ -1540,7 +1532,6 @@
                             <div class="down_right_list_img">
                                 <b class="new"></b>
                                     <img class="img-responsive" src="img/right01.png">
-                                </a>
                             </div>
                             <!-- 商品与图片end -->
                             <!-- 商品上隐藏的DIv -->
@@ -1575,43 +1566,6 @@
                             <div class="down_right_list_img">
                                 <b class="new"></b>
                                     <img class="img-responsive" src="img/right01.png">
-                                </a>
-                            </div>
-                            <!-- 商品与图片end -->
-                            <!-- 商品上隐藏的DIv -->
-                            <div class="add_cart_content">
-                                <div class="add_cart_btn">
-                                    <span href="javascript:;" title="详细" class="product_view" data-toggle="tooltip">
-                                        <i class="fa fa-eye"></i>
-                                    </span>
-                                    <span href="javascript:;"  title="收藏" class="product_conllect" data-toggle="tooltip">
-                                        <i class="fa fa-heart"></i>
-                                    </span>
-                                    <span href="javascript:;"  title="比较" class="product_compare " data-toggle="tooltip">
-                                        <i class="fa fa-retweet"></i>
-                                    </span>
-                                </div>
-                                <div class="btn_add_cart"  title="加入购物车" data-toggle="tooltip">	加入购物车
-                                </div>
-                            </div>
-                            <!-- 商品上隐藏的DIv end -->
-                            </div>
-                                <div  class="col-md-4 row down_right_list">
-                             <!-- 商品与图片 -->
-                            <div class="down_right_list_detail">
-                                粗面
-                            </div>
-                            <div class="down_right_list_start">
-                                星星
-                            </div>
-                            <div class="down_right_list_prince">
-                                $20
-                            </div>
-                            <div class="down_right_list_img">
-                                <b class="new"></b>
-
-                                    <img class="img-responsive" src="img/right01.png">
-                                </a>
                             </div>
                             <!-- 商品与图片end -->
                             <!-- 商品上隐藏的DIv -->
@@ -1647,7 +1601,41 @@
                                 <b class="new"></b>
 
                                     <img class="img-responsive" src="img/right01.png">
-                                </a>
+                            </div>
+                            <!-- 商品与图片end -->
+                            <!-- 商品上隐藏的DIv -->
+                            <div class="add_cart_content">
+                                <div class="add_cart_btn">
+                                    <span href="javascript:;" title="详细" class="product_view" data-toggle="tooltip">
+                                        <i class="fa fa-eye"></i>
+                                    </span>
+                                    <span href="javascript:;"  title="收藏" class="product_conllect" data-toggle="tooltip">
+                                        <i class="fa fa-heart"></i>
+                                    </span>
+                                    <span href="javascript:;"  title="比较" class="product_compare " data-toggle="tooltip">
+                                        <i class="fa fa-retweet"></i>
+                                    </span>
+                                </div>
+                                <div class="btn_add_cart"  title="加入购物车" data-toggle="tooltip">	加入购物车
+                                </div>
+                            </div>
+                            <!-- 商品上隐藏的DIv end -->
+                            </div>
+                                <div  class="col-md-4 row down_right_list">
+                             <!-- 商品与图片 -->
+                            <div class="down_right_list_detail">
+                                粗面
+                            </div>
+                            <div class="down_right_list_start">
+                                星星
+                            </div>
+                            <div class="down_right_list_prince">
+                                $20
+                            </div>
+                            <div class="down_right_list_img">
+                                <b class="new"></b>
+
+                                    <img class="img-responsive" src="img/right01.png">
                             </div>
                             <!-- 商品与图片end -->
                             <!-- 商品上隐藏的DIv -->
@@ -2549,7 +2537,6 @@
                                 </b>
 
                                     <img class="img-responsive" src="img/right01.png">
-                                </a>
                             </div>
                             <!-- 商品与图片end -->
                             <!-- 商品上隐藏的DIv -->
@@ -2586,7 +2573,6 @@
                                 </b>
 
                                     <img class="img-responsive" src="img/right01.png">
-                                </a>
                             </div>
                             <!-- 商品与图片end -->
                             <!-- 商品上隐藏的DIv -->
@@ -2621,43 +2607,6 @@
                             <div class="down_right_list_img">
                                 <b class="new"></b>
                                     <img class="img-responsive" src="img/right01.png">
-                                </a>
-                            </div>
-                            <!-- 商品与图片end -->
-                            <!-- 商品上隐藏的DIv -->
-                            <div class="add_cart_content">
-                                <div class="add_cart_btn">
-                                    <span href="javascript:;" title="详细" class="product_view" data-toggle="tooltip">
-                                        <i class="fa fa-eye"></i>
-                                    </span>
-                                    <span href="javascript:;"  title="收藏" class="product_conllect" data-toggle="tooltip">
-                                        <i class="fa fa-heart"></i>
-                                    </span>
-                                    <span href="javascript:;"  title="比较" class="product_compare " data-toggle="tooltip">
-                                        <i class="fa fa-retweet"></i>
-                                    </span>
-                                </div>
-                                <div class="btn_add_cart"  title="加入购物车" data-toggle="tooltip">	加入购物车
-                                </div>
-                            </div>
-                            <!-- 商品上隐藏的DIv end -->
-                            </div>
-                            <div  class="col-md-4 row down_right_list">
-                             <!-- 商品与图片 -->
-                            <div class="down_right_list_detail">
-                                桃子
-                            </div>
-                            <div class="down_right_list_start">
-                                星星
-                            </div>
-                            <div class="down_right_list_prince">
-                                $60
-                            </div>
-                            <div class="down_right_list_img">
-                                <b class="new"></b>
-
-                                    <img class="img-responsive" src="img/right01.png">
-                                </a>
                             </div>
                             <!-- 商品与图片end -->
                             <!-- 商品上隐藏的DIv -->
@@ -2693,7 +2642,6 @@
                                 <b class="new"></b>
 
                                     <img class="img-responsive" src="img/right01.png">
-                                </a>
                             </div>
                             <!-- 商品与图片end -->
                             <!-- 商品上隐藏的DIv -->
@@ -2729,7 +2677,41 @@
                                 <b class="new"></b>
 
                                     <img class="img-responsive" src="img/right01.png">
-                                </a>
+                            </div>
+                            <!-- 商品与图片end -->
+                            <!-- 商品上隐藏的DIv -->
+                            <div class="add_cart_content">
+                                <div class="add_cart_btn">
+                                    <span href="javascript:;" title="详细" class="product_view" data-toggle="tooltip">
+                                        <i class="fa fa-eye"></i>
+                                    </span>
+                                    <span href="javascript:;"  title="收藏" class="product_conllect" data-toggle="tooltip">
+                                        <i class="fa fa-heart"></i>
+                                    </span>
+                                    <span href="javascript:;"  title="比较" class="product_compare " data-toggle="tooltip">
+                                        <i class="fa fa-retweet"></i>
+                                    </span>
+                                </div>
+                                <div class="btn_add_cart"  title="加入购物车" data-toggle="tooltip">	加入购物车
+                                </div>
+                            </div>
+                            <!-- 商品上隐藏的DIv end -->
+                            </div>
+                            <div  class="col-md-4 row down_right_list">
+                             <!-- 商品与图片 -->
+                            <div class="down_right_list_detail">
+                                桃子
+                            </div>
+                            <div class="down_right_list_start">
+                                星星
+                            </div>
+                            <div class="down_right_list_prince">
+                                $60
+                            </div>
+                            <div class="down_right_list_img">
+                                <b class="new"></b>
+
+                                    <img class="img-responsive" src="img/right01.png">
                             </div>
                             <!-- 商品与图片end -->
                             <!-- 商品上隐藏的DIv -->
@@ -2767,7 +2749,6 @@
                                 <b class="new"></b>
 
                                     <img class="img-responsive" src="img/right01.png">
-                                </a>
                             </div>
                             <!-- 商品与图片end -->
                             <!-- 商品上隐藏的DIv -->
@@ -2803,7 +2784,6 @@
                                 <b class="new"></b>
 
                                     <img class="img-responsive" src="img/right01.png">
-                                </a>
                             </div>
                             <!-- 商品与图片end -->
                             <!-- 商品上隐藏的DIv -->
@@ -2838,7 +2818,6 @@
                             <div class="down_right_list_img">
                                 <b class="new"></b>
                                     <img class="img-responsive" src="img/right01.png">
-                                </a>
                             </div>
                             <!-- 商品与图片end -->
                             <!-- 商品上隐藏的DIv -->
@@ -2873,43 +2852,6 @@
                             <div class="down_right_list_img">
                                 <b class="new"></b>
                                     <img class="img-responsive" src="img/right01.png">
-                                </a>
-                            </div>
-                            <!-- 商品与图片end -->
-                            <!-- 商品上隐藏的DIv -->
-                            <div class="add_cart_content">
-                                <div class="add_cart_btn">
-                                    <span href="javascript:;" title="详细" class="product_view" data-toggle="tooltip">
-                                        <i class="fa fa-eye"></i>
-                                    </span>
-                                    <span href="javascript:;"  title="收藏" class="product_conllect" data-toggle="tooltip">
-                                        <i class="fa fa-heart"></i>
-                                    </span>
-                                    <span href="javascript:;"  title="比较" class="product_compare " data-toggle="tooltip">
-                                        <i class="fa fa-retweet"></i>
-                                    </span>
-                                </div>
-                                <div class="btn_add_cart"  title="加入购物车" data-toggle="tooltip">	加入购物车
-                                </div>
-                            </div>
-                            <!-- 商品上隐藏的DIv end -->
-                            </div>
-                                <div  class="col-md-4 row down_right_list">
-                             <!-- 商品与图片 -->
-                            <div class="down_right_list_detail">
-                                粗面
-                            </div>
-                            <div class="down_right_list_start">
-                                星星
-                            </div>
-                            <div class="down_right_list_prince">
-                                $20
-                            </div>
-                            <div class="down_right_list_img">
-                                <b class="new"></b>
-
-                                    <img class="img-responsive" src="img/right01.png">
-                                </a>
                             </div>
                             <!-- 商品与图片end -->
                             <!-- 商品上隐藏的DIv -->
@@ -2945,7 +2887,41 @@
                                 <b class="new"></b>
 
                                     <img class="img-responsive" src="img/right01.png">
-                                </a>
+                            </div>
+                            <!-- 商品与图片end -->
+                            <!-- 商品上隐藏的DIv -->
+                            <div class="add_cart_content">
+                                <div class="add_cart_btn">
+                                    <span href="javascript:;" title="详细" class="product_view" data-toggle="tooltip">
+                                        <i class="fa fa-eye"></i>
+                                    </span>
+                                    <span href="javascript:;"  title="收藏" class="product_conllect" data-toggle="tooltip">
+                                        <i class="fa fa-heart"></i>
+                                    </span>
+                                    <span href="javascript:;"  title="比较" class="product_compare " data-toggle="tooltip">
+                                        <i class="fa fa-retweet"></i>
+                                    </span>
+                                </div>
+                                <div class="btn_add_cart"  title="加入购物车" data-toggle="tooltip">	加入购物车
+                                </div>
+                            </div>
+                            <!-- 商品上隐藏的DIv end -->
+                            </div>
+                                <div  class="col-md-4 row down_right_list">
+                             <!-- 商品与图片 -->
+                            <div class="down_right_list_detail">
+                                粗面
+                            </div>
+                            <div class="down_right_list_start">
+                                星星
+                            </div>
+                            <div class="down_right_list_prince">
+                                $20
+                            </div>
+                            <div class="down_right_list_img">
+                                <b class="new"></b>
+
+                                    <img class="img-responsive" src="img/right01.png">
                             </div>
                             <!-- 商品与图片end -->
                             <!-- 商品上隐藏的DIv -->
