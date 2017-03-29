@@ -1,5 +1,10 @@
 /*******左边栏*******/
-
+body{
+    background-color:#ededed;
+}
+.none-padding{
+    padding:0px;
+}
 .cate_tips_box {
     font-weight: bold;
     font-size: 15px;
@@ -63,7 +68,7 @@
     text-decoration: none;
 }
 .cate_box > li > i{
-    font-size: 24px;
+    font-size: 12px;
     color: #8d9399;
     text-decoration: none;
 }
@@ -141,27 +146,36 @@
     overflow: hidden;
     background-color: #fff;
 }
-.detail_right .main .main_left .lg_img{
-    width: 428px;
-    height: 428px;
-    line-height: 428px;
+.detail_right .main .main_left{
+    padding: 15px;
     overflow: hidden;
-    margin:15px 0px ;
 }
-.detail_right .main .main_left .lg_img img{
-    width: 428px;
+/* Clear Fix */
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{display:inline-block;}
+/* Hide from IE Mac */
+.clearfix{display:block;}
+
+/*图片放大镜样式*/
+.jqzoom{float:left;border:none;position:relative;padding:0px;cursor:pointer;margin:0px;display:block;overflow: hidden}
+.jqzoom img{
+    width: 100%;
 }
-.detail_right .main .main_left .sm_img{
-    height: 65px;
-    width: 428px;
-}
-.detail_right .main .main_left .sm_img img{
-    width: 65px;
-    opacity: 0.6;
-}
-.detail_right .main .main_left .sm_img img+img{
-    margin-left: 3px;
-}
+.zoomdiv{z-index:100;position:absolute;top:0px;left:0px;background:#ffffff;border:1px solid #CCCCCC;display:none;text-align:center;overflow:hidden;}
+.jqZoomPup{z-index:10;visibility:hidden;position:absolute;top:0px;left:0px;width:20px;height:20px;border:1px solid #aaa;background:#ffffff /*url(../images/zoom.png) 50% center no-repeat*/;opacity: 0.5;-moz-opacity: 0.5;-khtml-opacity: 0.5;filter: alpha(Opacity=50);}
+/*图片小图预览列表*/
+.spec-preview{width:450px;height:450px;;border:1px solid #DFDFDF;overflow: hidden}
+.spec-scroll{clear:both;margin-top:5px;width:450px;}
+.spec-scroll .prev{float:left;margin-right:4px;}
+.spec-scroll .next{float:right;}
+.spec-scroll .prev,.spec-scroll .next{display:block;text-align:center;width:11px;height:80px; line-height:80px;border:1px solid #CCC;background:#EBEBEB;cursor:pointer;text-decoration:none;margin-top: 2px;}
+.spec-scroll .items{float:left;position:relative;width:94%;height:84px;overflow:hidden;}
+.spec-scroll .items ul{position:absolute;}
+.spec-scroll .items ul li{float:left;width:80px;height:80px;text-align:center;border:1px solid #CCC; margin:2px; overflow: hidden}
+.spec-scroll .items ul li img{width:100%; opacity: 0.6}
+
+
+
 .detail_right .main .main_right>h3{
     margin-top: 50px;
 }

@@ -9,6 +9,11 @@
     <link href="Font-Awesome-master/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/common.css" rel="stylesheet">
     <link href="css/detail.css" rel="stylesheet">
+
+    <!--<link href="bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Font-Awesome-master/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/detail.css" rel="stylesheet">-->
     <!--[if lt IE 9]>
     <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
@@ -21,7 +26,7 @@
             <div class="container_box">
                 <div class="col-lg-4 header_right">
                     Welcome visitor you can
-                    <a href="login.html"> Login or Create an account</a>
+                    <a href="javascript:;"> Login or Create an account</a>
                 </div>
 
                 <div class="pull-right one header_right_list hidden-sm hidden-xs">
@@ -459,7 +464,7 @@
                         <span class="baoguo">
                             <i><strong>·</strong></i>
                             <a>
-		                     Delicious Snacks
+                                Delicious Snacks
                             </a>
                         </span>
                         <i class="icon_box pull-right" href="#Delicious" data-toggle="collapse">+</i>
@@ -476,7 +481,7 @@
                          <span class="baoguo">
                             <i><strong>·</strong></i>
                             <a>
-                           Fresh Fruit
+                                Fresh Fruit
                             </a>
                         </span>
                         <i class="icon_box pull-right"href="#Fresh" data-toggle="collapse" >+</i>
@@ -493,7 +498,7 @@
                         <span class="baoguo">
                             <i><strong>·</strong></i>
                             <a>
-		                     Imported Food
+                                Imported Food
                             </a>
                         </span>
                         <i class="icon_box pull-right" href="#Imported" data-toggle="collapse">+</i>
@@ -510,7 +515,7 @@
                        <span class="baoguo">
                             <i><strong>·</strong></i>
                             <a>
-		                         Beverage
+                                Beverage
                             </a>
                         </span>
                         <i class="icon_box pull-right" href="#Beverage" data-toggle="collapse">+</i>
@@ -545,20 +550,27 @@
 
         </div>
     </div>
-    <div class="detail_right none-padding col-lg-9">
+    <div class="detail_right none-padding" style="width: 75%;float: left">
    <div class="main">
-       <div class="main_left col-lg-7">
-           <div class="lg_img">
-               <img src="images/289-thickbox_default.jpg">
+       <div class="main_left" style="width: 58.33333333%;float: left">
+           <div id="preview" class="spec-preview"> <span class="jqzoom"><img src="images/289-thickbox_default.jpg"  jqimg="images/289-thickbox_default.jpg"></span> </div>
+           <!--缩图开始-->
+           <div class="spec-scroll">
+               <a class="prev">&lt;</a>
+               <div class="items" style="position: relative">
+                   <ul>
+                       <li><img  bimg="images/289-thickbox_default.jpg" src="images/289-thickbox_default.jpg" onmousemove="preview(this);"></li>
+                       <li><img  bimg="images/290-thickbox_default.jpg" src="images/290-thickbox_default.jpg" onmousemove="preview(this);"></li>
+                       <li><img  bimg="images/291-thickbox_default.jpg" src="images/291-thickbox_default.jpg" onmousemove="preview(this);"></li>
+                       <li><img  bimg="images/292-thickbox_default.jpg" src="images/292-thickbox_default.jpg" onmousemove="preview(this);"></li>
+                       <li><img  bimg="images/314-thickbox_default.jpg" src="images/314-thickbox_default.jpg" onmousemove="preview(this);"></li>
+                       <li><img  bimg="images/316-thickbox_default.jpg" src="images/316-thickbox_default.jpg" onmousemove="preview(this);"></li>
+                       <li><img  bimg="images/289-thickbox_default.jpg" src="images/289-thickbox_default.jpg" onmousemove="preview(this);"></li>
+                   </ul>
+               </div>
+               <a class="next">&gt;</a>
            </div>
-           <div class="sm_img">
-               <img src="images/289-thickbox_default.jpg">
-               <img src="images/290-thickbox_default.jpg">
-               <img src="images/291-thickbox_default.jpg">
-               <img src="images/292-thickbox_default.jpg">
-               <img src="images/314-thickbox_default.jpg">
-               <img src="images/316-thickbox_default.jpg">
-           </div>
+           <!--缩图结束-->
        </div>
        <div class="main_right col-lg-5 none-padding">
            <h3>LOREM IPSUM DOLOR</h3>
@@ -674,9 +686,6 @@
                                     </p>
                                     <p>$9.9</p>
                                     <img class="goods-img" src="images/372-home_default.jpg">
-                                    <div class="hover_display">
-                                        <p class="text-center cart">立即购买</p>
-                                    </div>
                                 </li>
                                 <li class="goods goods_hover col-lg-3">
                                     <p>猕猴桃</p>
@@ -689,9 +698,6 @@
                                     </p>
                                     <p>$9.9</p>
                                     <img class="goods-img" src="images/372-home_default.jpg">
-                                    <div class="hover_display">
-                                        <p class="text-center cart">立即购买</p>
-                                    </div>
                                 </li>
                                 <li class="goods goods_hover col-lg-3">
                                     <p>猕猴桃</p>
@@ -704,9 +710,6 @@
                                     </p>
                                     <p>$9.9</p>
                                     <img class="goods-img" src="images/372-home_default.jpg">
-                                    <div class="hover_display">
-                                        <p class="text-center cart">立即购买</p>
-                                    </div>
                                 </li>
                                 <li class="goods goods_hover col-lg-3">
                                     <p>猕猴桃</p>
@@ -719,9 +722,6 @@
                                     </p>
                                     <p>$9.9</p>
                                     <img class="goods-img" src="images/372-home_default.jpg">
-                                    <div class="hover_display">
-                                        <p class="text-center cart">立即购买</p>
-                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -738,9 +738,6 @@
                                     </p>
                                     <p>$9.9</p>
                                     <img class="goods-img" src="images/372-home_default.jpg">
-                                    <div class="hover_display">
-                                        <p class="text-center cart">立即购买</p>
-                                    </div>
                                 </li>
                                 <li class="goods goods_hover col-lg-3">
                                     <p>猕猴桃</p>
@@ -753,9 +750,6 @@
                                     </p>
                                     <p>$9.9</p>
                                     <img class="goods-img" src="images/372-home_default.jpg">
-                                    <div class="hover_display">
-                                        <p class="text-center cart">立即购买</p>
-                                    </div>
                                 </li>
                                 <li class="goods goods_hover col-lg-3">
                                     <p>猕猴桃</p>
@@ -768,9 +762,6 @@
                                     </p>
                                     <p>$9.9</p>
                                     <img class="goods-img" src="images/372-home_default.jpg">
-                                    <div class="hover_display">
-                                        <p class="text-center cart">立即购买</p>
-                                    </div>
                                 </li>
                                 <li class="goods goods_hover col-lg-3">
                                     <p>猕猴桃</p>
@@ -783,9 +774,6 @@
                                     </p>
                                     <p>$9.9</p>
                                     <img class="goods-img" src="images/372-home_default.jpg">
-                                    <div class="hover_display">
-                                        <p class="text-center cart">立即购买</p>
-                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -813,9 +801,9 @@
                         <!--图片列表-->
                         <div class="carousel-inner pic_box">
                             <!--第一屏-->
-                            <div class="item active">
+                            <div class="item">
                                 <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                                    <a class="logo_img"><img  class="img-responsive" src="images/logo1.jpg"></a>
+                                    <a class="logo_img"><img class="img-responsive" src="images/logo1.jpg"></a>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
                                     <a class="logo_img"><img class="img-responsive" src="images/logo2.jpg"></a>
@@ -835,7 +823,7 @@
                             </div>
 
                             <!--第二屏-->
-                            <div class="item">
+                            <div class="item active">
                                 <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
                                     <a class="logo_img"><img class="img-responsive" src="images/logo7.jpg"></a>
                                 </div>
@@ -853,148 +841,147 @@
     </div>
 </div>
 
-<!--底部黑色部分->
-
-    <!-底部黑色部分--> 
-        <!--上半部分-->
-        <footer id="footer">
-        <section id="pts-footer-top" class="footer-top">
-            <div class="container">
-                <div class="inner">
-                    <div class="row">
-                        <div id="newsletter_block_left" class="pts-newsletter footer-block col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <div class="middle row">
-                                <h4 class="title col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                    <span>Newsletter Sign-up</span>
-                                </h4>
-                                <div class="block_content toggle-footer col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                                    <form action="" method="post">
-                                        <div class="form-group">
-                                            <input class="inputNew form-control grey newsletter-input" id="newsletter-input" type="text" name="email" size="18" placeholder="Your e-mail">
-                                            <button type="button" class="btn btn-success button button-newsletter" name="submitNewsletter">
-                                                <span>Subscribe</span>
-                                            </button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--底部中间部分-->
-        <section id="pts-footercenter" class="footer-center">
-            <div class="container">
-                <div class="inner">
-                    <div class="row">
-                        <!--第一个盒子（最后右边部分）-->
-                        <div id="ptsstaticontent_footer" class="block col-xs-12 col-sm-12 col-md-12 col-lg-3">
-                            <div class="staticontent-home clearfix">
-                                <div class="footer-intro">
-                                    <div class="img-logo col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <img class="img-responsive" src="images/logo.png">
+<!----------------------底部黑色部分------------------------->
+<footer id="footer">
+    <!--上半部分-->
+    <section id="pts-footer-top" class="footer-top">
+        <div class="container">
+            <div class="inner">
+                <div class="row">
+                    <div id="newsletter_block_left" class="pts-newsletter footer-block col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="middle row">
+                            <h4 class="title col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                <span>Newsletter Sign-up</span>
+                            </h4>
+                            <div class="block_content toggle-footer col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                                <form action="" method="post">
+                                    <div class="form-group">
+                                        <input class="inputNew form-control grey newsletter-input" id="newsletter-input" type="text" name="email" size="18" value="Your e-mail">
+                                        <button type="button" class="btn btn-success button button-newsletter" name="submitNewsletter">
+                                            <span>Subscribe</span>
+                                        </button>
                                     </div>
-                                    <div class="description col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat sagittis nibh id elit.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--第二个盒子-->
-                        <div class="footer-block block col-xs-12 col-sm-6 col-md-6 col-lg-2">
-                            <h4 class="title"><span>My account</span></h4>
-                            <ul class="list-block toggle-footer list-group">
-                                <li><a href="javascript:;">My orders</a></li>
-                                <li><a href="javascript:;">MY CREDIT SLIPS</a></li>
-                                <li><a href="javascript:;">MY ADDRESSES</a></li>
-                                <li><a href="javascript:;">MY PERSONAL INFO</a></li>
-                                <li><a href="javascript:;">MY VOUCHERS</a></li>
-                            </ul>
-                        </div>
-
-                        <!--第三个盒子-->
-                        <div class="footer-block block col-xs-12 col-sm-6 col-md-6 col-lg-2">
-                            <h4 class="title"><span>CUSTOMER SERVICE</span></h4>
-                            <ul class="list-block toggle-footer list-group">
-                                <li><a href="javascript:;">OUR STORES</a></li>
-                                <li><a href="javascript:;">CONTACT US</a></li>
-                                <li><a href="javascript:;">SITEMAP</a></li>
-                                <li><a href="javascript:;">SUPPLIERS</a></li>
-                            </ul>
-                        </div>
-
-                        <!--第四个盒子-->
-                        <div class="footer-block block col-xs-12 col-sm-6 col-md-6 col-lg-2">
-                            <h4 class="title"><span>INFORMATION</span></h4>
-                            <ul class="list-block toggle-footer list-group">
-                                <li><a href="javascript:;">LEGAL NOTICE</a></li>
-                                <li><a href="javascript:;">LEGAL NOTICE</a></li>
-                                <li><a href="javascript:;">ABOUT US</a></li>
-                                <li><a href="javascript:;">SECURE PAYMENT</a></li>
-                                <li><a href="javascript:;">TYPO</a></li>
-                            </ul>
-                        </div>
-
-                        <!--第五个盒子-->
-                        <div class="footer-block block col-xs-12 col-sm-6 col-md-6 col-lg-3 contactinfos">
-                            <h4 class="title"><span>Contact info</span></h4>
-                            <div class="toggle-footer five">
-                                <div class="list-group list">
-                                    Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sosqu ad litora torquent per conubia
-                                </div>
-                                <ul class="list-group list">
-                                    <li>
-                                        <i class="icon icon-map-marker fa fa-stop-circle" aria-hidden="true"></i>
-                                        No 1104 Sky Tower,  Newyork, USA
-                                    </li>
-                                    <li>
-                                        <i class="icon icon-map-marker fa fa-phone" aria-hidden="true"></i>
-                                        Call us now: 0123-456-789
-                                    </li>
-                                    <li>
-                                        <i class="icon icon-map-marker fa fa-envelope-o" aria-hidden="true"></i>
-                                        Email: SALES@YOURCOMPANY.COM
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--最底部-->
-        <div id="powered">
-            <div class="container">
-                <div class="inner">
-                    <div id="pts-copyright" class="copyright">
-                        <span>Copyright By Your Store © 2017</span>
-                        <span class="powered">
-                        - Powered By
-                        <a href="javascript:;" title="prestashop">Prestashop</a>
-                    </span>
-                    </div>
-
-                    <div id="pts-footer-bottom" class="footer-bottom">
-                        <div class="row">
-                            <div class="staticontent-item-1 staticontent-item col-lg-12 col-md-12 col-sm-12 hidden-xs ">
-                                <img src="images/image-paypal.png">
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </section>
+
+    <!--底部中间部分-->
+    <section id="pts-footercenter" class="footer-center">
+        <div class="container">
+            <div class="inner">
+                <div class="row">
+                    <!--第一个盒子（最后右边部分）-->
+                    <div id="ptsstaticontent_footer" class="block col-xs-12 col-sm-12 col-md-12 col-lg-3">
+                        <div class="staticontent-home clearfix">
+                            <div class="footer-intro">
+                                <div class="img-logo col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <img class="img-responsive" src="images/logo.png">
+                                </div>
+                                <div class="description col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat sagittis nibh id elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--第二个盒子-->
+                    <div class="footer-block block col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                        <h4 class="title"><span>My account</span></h4>
+                        <ul class="list-block toggle-footer list-group">
+                            <li><a href="javascript:;">My orders</a></li>
+                            <li><a href="javascript:;">MY CREDIT SLIPS</a></li>
+                            <li><a href="javascript:;">MY ADDRESSES</a></li>
+                            <li><a href="javascript:;">MY PERSONAL INFO</a></li>
+                            <li><a href="javascript:;">MY VOUCHERS</a></li>
+                        </ul>
+                    </div>
+
+                    <!--第三个盒子-->
+                    <div class="footer-block block col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                        <h4 class="title"><span>CUSTOMER SERVICE</span></h4>
+                        <ul class="list-block toggle-footer list-group">
+                            <li><a href="javascript:;">OUR STORES</a></li>
+                            <li><a href="javascript:;">CONTACT US</a></li>
+                            <li><a href="javascript:;">SITEMAP</a></li>
+                            <li><a href="javascript:;">SUPPLIERS</a></li>
+                        </ul>
+                    </div>
+
+                    <!--第四个盒子-->
+                    <div class="footer-block block col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                        <h4 class="title"><span>INFORMATION</span></h4>
+                        <ul class="list-block toggle-footer list-group">
+                            <li><a href="javascript:;">LEGAL NOTICE</a></li>
+                            <li><a href="javascript:;">LEGAL NOTICE</a></li>
+                            <li><a href="javascript:;">ABOUT US</a></li>
+                            <li><a href="javascript:;">SECURE PAYMENT</a></li>
+                            <li><a href="javascript:;">TYPO</a></li>
+                        </ul>
+                    </div>
+
+                    <!--第五个盒子-->
+                    <div class="footer-block block col-xs-12 col-sm-6 col-md-6 col-lg-3 contactinfos">
+                        <h4 class="title"><span>Contact info</span></h4>
+                        <div class="toggle-footer five">
+                            <div class="list-group list">
+                                Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sosqu ad litora torquent per conubia
+                            </div>
+                            <ul class="list-group list">
+                                <li>
+                                    <i class="icon icon-map-marker fa fa-stop-circle" aria-hidden="true"></i>
+                                    No 1104 Sky Tower,  Newyork, USA
+                                </li>
+                                <li>
+                                    <i class="icon icon-map-marker fa fa-phone" aria-hidden="true"></i>
+                                    Call us now: 0123-456-789
+                                </li>
+                                <li>
+                                    <i class="icon icon-map-marker fa fa-envelope-o" aria-hidden="true"></i>
+                                    Email: SALES@YOURCOMPANY.COM
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--最底部-->
+    <div id="powered">
+        <div class="container">
+            <div class="inner">
+                <div id="pts-copyright" class="copyright">
+                    <span>Copyright By Your Store © 2017</span>
+                    <span class="powered">
+                        - Powered By
+                        <a href="javascript:;" title="prestashop">Prestashop</a>
+                    </span>
+                </div>
+
+                <div id="pts-footer-bottom" class="footer-bottom">
+                    <div class="row">
+                        <div class="staticontent-item-1 staticontent-item col-lg-12 col-md-12 col-sm-12 hidden-xs ">
+                            <img src="images/image-paypal.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
 
 <script src="js/jQuery2.14.js"></script>
+<script rel="stylesheet" src="js/jquery.jqzoom.js"></script>
 <script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
-<script rel="stylesheet" src="js/base.js"></script>
-<script src="js/common.js"></script>
 <script rel="stylesheet" src="js/detail.js"></script>
+<script src="js/common.js"></script>
 </body>
 </html>
