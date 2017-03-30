@@ -15,14 +15,14 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="Font-Awesome-master/css/font-awesome.min.css">
-    <link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-3.3./css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/common.css">
     <script src="js/jQuery2.14.js"></script>
-    <script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script src="bootstrap-3.3./js/bootstrap.min.js"></script>
     <!--[if lt IE 9]>
-    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7./html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4./respond.min.js"></script>
     <![endif]-->
 
 
@@ -35,7 +35,7 @@
             <div class="container_box">
                 <div class="col-lg-4 header_right ">
                     Welcome visitor you can
-                    <a href="../login.php" class="<?php  ActiveCssClass("/login.php")?>"> Login or Create an account</a>
+                    <a href="./login.php" class="<?php  ActiveCssClass("/login.php")?>"> Login or Create an account</a>
                 </div>
 
                 <div class="pull-right one header_right_list hidden-sm hidden-xs">
@@ -75,7 +75,7 @@
                 <div class="pull-right three header_right_list hidden-sm hidden-xs">
                     <div class="list dropdown">
                         <span>
-                            <img src="../images/meiguo.jpg">
+                            <img src="./images/meiguo.jpg">
                         </span>
                         <span class="name">ENGLISH</span>
                         <span class="drop_down" data-toggle="dropdown">
@@ -84,11 +84,11 @@
 
                         <!--二级菜单-->
                         <ul class="dropdown-menu">
-                            <li class="cur"><img src="../images/meiguo.jpg">English</li>
-                            <li><img src="../images/Français.jpg">Français</li>
-                            <li><img src="../images/Italiano.jpg">Italiano</li>
-                            <li><img src="../images/Español.jpg">Español</li>
-                            <li><img src="../images/Persian.jpg">Persian</li>
+                            <li class="cur"><img src="./images/meiguo.jpg">English</li>
+                            <li><img src="./images/Français.jpg">Français</li>
+                            <li><img src="./images/Italiano.jpg">Italiano</li>
+                            <li><img src="./images/Español.jpg">Español</li>
+                            <li><img src="./images/Persian.jpg">Persian</li>
                         </ul>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
     <div class="header_main">
         <div class="container">
             <div class="col-lg-3 logo_box ">
-                <a href="../index.php"><img src="../images/logo.png" alt=""></a>
+                <a href="./index.php"><img src="./images/logo.png" alt=""></a>
             </div>
 
             <!--右边上部分-->
@@ -109,7 +109,7 @@
                 <div class="up_header_box">
                     <ul class="list-inline hidden-sm hidden-xs">
                         <li class="<?php  (ActiveCssClass("/index.php")||ActiveCssClass("/"))?"active_url":"";?>">
-                            <a href="../index.php">home</a>
+                            <a href="./index.php">home</a>
                         </li>
                         <!--二级菜单容器-->
                         <li class="parent dropdown" hover="1">
@@ -139,7 +139,7 @@
                         <!--二级菜单容器-->
                         <li class="parent dropdown" hover="1">
                             <a data-toggle="dropdown">
-                                <a  class="inli <?php  ActiveCssClass("/fruitlist.php")?>" href="../fruitlist.php">
+                                <a  class="inli <?php  ActiveCssClass("/fruitlist.php")?>" href="./fruitlist.php">
                                     Fruit
                                     <b class="tu">
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -199,7 +199,7 @@
                                 <div class=" col-lg-4">
                                     <span>VIDEO WIDGET</span>
                                     <div class="down_list">
-                                        <img src="../images/yingtao.jpg" class=" img_yingtao">
+                                        <img src="./images/yingtao.jpg" class=" img_yingtao">
                                     </div>
                                 </div>
 
@@ -234,7 +234,7 @@
                         <!--二级菜单容器-->
                         <li class="parent dropdown" hover="1">
                             <a   data-toggle="dropdown" >
-                                <a  class="inli  <?php  ActiveCssClass("/newslist.php")?>" href="../newslist.php">
+                                <a  class="inli  <?php  ActiveCssClass("/newslist.php")?>" href="./newslist.php">
                                     news
                                     <b class="tu">
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -444,8 +444,8 @@
 
                     <div class="col-lg-4 shopping">
                         <div class="shopping_box ">
-                            <a href="../goodscart.php">
-                                <img src="../images/shopping.png">
+                            <a href="./goodscart.php">
+                                <img src="./images/shopping.png">
                                 <span>My Cart 2 item</span>
                                 <b class="tu">
                                     <i class="fa fa-angle-down" aria-hidden="true"></i>
