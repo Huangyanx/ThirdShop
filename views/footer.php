@@ -12,32 +12,32 @@
                             <!--第一屏-->
                             <div class="item active">
                                 <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                                    <a class="logo_img"><img  class="img-responsive" src="../images/logo1.jpg"></a>
+                                    <a class="logo_img"><img  class="img-responsive" src="./images/logo1.jpg"></a>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                                    <a class="logo_img"><img class="img-responsive" src="../images/logo2.jpg"></a>
+                                    <a class="logo_img"><img class="img-responsive" src="./images/logo2.jpg"></a>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                                    <a class="logo_img"><img class="img-responsive" src="../images/logo3.jpg"></a>
+                                    <a class="logo_img"><img class="img-responsive" src="./images/logo3.jpg"></a>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                                    <a class="logo_img"><img class="img-responsive" src="../images/logo4.jpg"></a>
+                                    <a class="logo_img"><img class="img-responsive" src="./images/logo4.jpg"></a>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                                    <a class="logo_img"><img class="img-responsive" src="../images/logo5.jpg"></a>
+                                    <a class="logo_img"><img class="img-responsive" src="./images/logo5.jpg"></a>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                                    <a class="logo_img"><img class="img-responsive" src="../images/logo6.jpg"></a>
+                                    <a class="logo_img"><img class="img-responsive" src="./images/logo6.jpg"></a>
                                 </div>
                             </div>
 
                             <!--第二屏-->
                             <div class="item">
                                 <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                                    <a class="logo_img"><img class="img-responsive" src="../images/logo7.jpg"></a>
+                                    <a class="logo_img"><img class="img-responsive" src="./images/logo7.jpg"></a>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                                    <a class="logo_img"><img class="img-responsive" src="../images/logo6.jpg"></a>
+                                    <a class="logo_img"><img class="img-responsive" src="./images/logo6.jpg"></a>
                                 </div>
                             </div>
                         </div>
@@ -92,10 +92,10 @@
                         <div class="staticontent-home clearfix">
                             <div class="footer-intro">
                                 <div class="img-logo col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <img class="img-responsive" src="../images/logo.png">
+                                    <img class="img-responsive" src="./images/logo.png">
                                 </div>
                                 <div class="description col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat sagittis nibh id elit.</p>
+                                    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat sagittis nibh id elit./p>
                                 </div>
                             </div>
                         </div>
@@ -180,7 +180,7 @@
                 <div id="pts-footer-bottom" class="footer-bottom">
                     <div class="row">
                         <div class="staticontent-item-1 staticontent-item col-lg-12 col-md-12 col-sm-12 hidden-xs ">
-                            <img src="../images/image-paypal.png">
+                            <img src="./images/image-paypal.png">
                         </div>
                     </div>
                 </div>
