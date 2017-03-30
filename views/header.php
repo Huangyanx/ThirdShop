@@ -35,7 +35,7 @@
             <div class="container_box">
                 <div class="col-lg-4 header_right ">
                     Welcome visitor you can
-                    <a href="./login.php" class="<?php  ActiveCssClass("/login.php")?>"> Login or Create an account</a>
+                    <a href="../login.php" class="<?php  ActiveCssClass("/login.php")?>"> Login or Create an account</a>
                 </div>
 
                 <div class="pull-right one header_right_list hidden-sm hidden-xs">
@@ -139,7 +139,7 @@
                         <!--二级菜单容器-->
                         <li class="parent dropdown" hover="1">
                             <a data-toggle="dropdown">
-                                <a  class="inli <?php  ActiveCssClass("/fruitlist.php")?>" href="./fruitlist.php">
+                                <a  class="inli <?php  ActiveCssClass("/fruitlist.php")?>" href="../fruitlist.php">
                                     Fruit
                                     <b class="tu">
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -234,7 +234,7 @@
                         <!--二级菜单容器-->
                         <li class="parent dropdown" hover="1">
                             <a   data-toggle="dropdown" >
-                                <a  class="inli  <?php  ActiveCssClass("/newslist.php")?>" href="./newslist.php">
+                                <a  class="inli  <?php  ActiveCssClass("/newslist.php")?>" href="../newslist.php">
                                     news
                                     <b class="tu">
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -444,7 +444,7 @@
 
                     <div class="col-lg-4 shopping">
                         <div class="shopping_box ">
-                            <a href="./goodscart.php">
+                            <a href="../goodscart.php">
                                 <img src="../images/shopping.png">
                                 <span>My Cart 2 item</span>
                                 <b class="tu">
