@@ -1,4 +1,4 @@
-<?php include("./views/header.php");?>
+<?php include("views/header.php");?>
 	<link rel="stylesheet" type="text/css" href="css/shequ.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
     <!-- 第一屏 轮播加菜单 -->
@@ -180,7 +180,7 @@
 								<!-- 商品上隐藏的DIv -->
 					 			<div class="add_cart_content">
 					 				<div class="add_cart_btn"> 
-					 					<span href="detail.html" title="详细" class="product_view" data-toggle="tooltip">
+					 					<span href="../public/detail.php" title="详细" class="product_view" data-toggle="tooltip">
 					 						<i class="fa fa-eye"></i>
 					 					</span>
 					 					<span href="javascript:;"  title="收藏" class="product_conllect" data-toggle="tooltip">
@@ -3014,5 +3014,5 @@
 		</div> 
 	</div>
     <!-- 右侧社区工具end -->
- <script type="text/javascript"  src="./js/index.js"></script>
- <?php include("./views/footer.php")?>
+ <script type="text/javascript"  src="js/index.js"></script>
+<?php include(realpath("./")."/views/footer.php");?>

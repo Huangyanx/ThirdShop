@@ -1,5 +1,5 @@
  <!------------------------头部-------------------------->
- <?php include("./views/header.php")?>
+ <?php include("views/header.php");?>
 <link rel="stylesheet" href="css/newlist.css">
 <div class="news_list">
     <div class="breadcrumb">
@@ -217,4 +217,4 @@
 </div>
 
  <!------------------------底部（footer）------------------------->
- <?php include("./views/footer.php")?>
+ <?php include("views/footer.php");?>

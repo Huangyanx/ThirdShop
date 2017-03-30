@@ -1,5 +1,5 @@
 <!----------------- 头部------------------>
-    <?php include("./views/header.php")?>
+<?php include("views/header.php");?>
 <!----------------- 头部end------------------>
 	<link rel="stylesheet" type="text/css" href="css/login.css">
 		<div class="container">
@@ -52,6 +52,6 @@
 		</div>
  
 <!---------------------底部----------------------->
-<?php include("./views/footer.php")?>
+<?php include("views/footer.php");?>
  
  

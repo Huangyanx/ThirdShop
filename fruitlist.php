@@ -1,5 +1,5 @@
 <!------------------头部header----------------------->
-<?php include("./views/header.php");?>
+<?php include("views/header.php");?>
 <link rel="stylesheet" href="css/Fruit_mall.css">
 <link rel="stylesheet" href="css/list.css">
 
@@ -1135,6 +1135,6 @@
 </section>
 <script src="js/fruitlist.js"></script>
 <!------------------------底部（footer）------------------------->
- <?php include("./views/footer.php")?>
+<?php include("views/footer.php");?>
 
 

@@ -1,10 +1,8 @@
 
 
 <!-------头部-------->
-<?php include("./views/header.php");?>
- <link href="./css/detail.css" rel="stylesheet">
-
-
+<?php include("views/header.php");?>
+ <link href="css/detail.css" rel="stylesheet">
 
 <div class="container">
     <div class="detail_left none-padding col-lg-3">
@@ -358,4 +356,4 @@
 <script rel="stylesheet" src="js/base.js"></script>
 <script rel="stylesheet" src="js/detail.js"></script>
 <!------------------------底部（footer）------------------------->
-<?php include("./views/footer.php")?>
+<?php include("views/footer.php");?>

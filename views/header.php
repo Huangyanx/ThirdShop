@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <?php
+        function ActiveCssClass($url){
+            if($_SERVER["REQUEST_URI"]==$url) {
+                echo   "active_url";
+            }else{
+                echo  "";
+            }
+        }
+    ?>
     <meta charset="UTF-8">
     <title>Title</title>
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="../Font-Awesome-master/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../bootstrap-3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../css/reset.css">
-    <link rel="stylesheet" type="text/css" href="../css/common.css">
-    <script src="../js/jQuery2.14.js"></script>
-    <script src="../bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Font-Awesome-master/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <script src="js/jQuery2.14.js"></script>
+    <script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
     <!--[if lt IE 9]>
     <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
 </head>
 <body data-spy="scroll" >
 <!-- 头部 -->
@@ -22,9 +33,9 @@
     <div class="header_box row">
         <div class="container">
             <div class="container_box">
-                <div class="col-lg-4 header_right">
+                <div class="col-lg-4 header_right ">
                     Welcome visitor you can
-                    <a href="./login.php"> Login or Create an account</a>
+                    <a href="./login.php" class="<?php  ActiveCssClass("/login.php")?>"> Login or Create an account</a>
                 </div>
 
                 <div class="pull-right one header_right_list hidden-sm hidden-xs">
@@ -97,7 +108,7 @@
             <div class="col-lg-9">
                 <div class="up_header_box">
                     <ul class="list-inline hidden-sm hidden-xs">
-                        <li>
+                        <li class="<?php  (ActiveCssClass("/index.php")||ActiveCssClass("/"))?"active_url":"";?>">
                             <a href="../index.php">home</a>
                         </li>
                         <!--二级菜单容器-->
@@ -128,7 +139,7 @@
                         <!--二级菜单容器-->
                         <li class="parent dropdown" hover="1">
                             <a data-toggle="dropdown">
-                                <a  class="inli" href="./fruitlist.php">
+                                <a  class="inli <?php  ActiveCssClass("/fruitlist.php")?>" href="./fruitlist.php">
                                     Fruit
                                     <b class="tu">
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -222,8 +233,8 @@
 
                         <!--二级菜单容器-->
                         <li class="parent dropdown" hover="1">
-                            <a   data-toggle="dropdown">
-                                <a  class="inli" href="./newslist.php">
+                            <a   data-toggle="dropdown" >
+                                <a  class="inli  <?php  ActiveCssClass("/newslist.php")?>" href="./newslist.php">
                                     news
                                     <b class="tu">
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -432,7 +443,7 @@
                     </div>
 
                     <div class="col-lg-4 shopping">
-                        <div class="shopping_box">
+                        <div class="shopping_box ">
                             <a href="./goodscart.php">
                                 <img src="../images/shopping.png">
                                 <span>My Cart 2 item</span>

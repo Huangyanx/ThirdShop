@@ -1,7 +1,7 @@
 
 
 
-<?php include("./views/header.php")?>
+<?php include("views/header.php");?>
     <title>购物车</title>
     <link href="css/goodscart.css" rel="stylesheet">
 <!---------------头部------------------>
@@ -113,10 +113,6 @@
                             </div>
 
                         </div>
-
-
-
-
             </div>
 
     </div>
@@ -124,5 +120,5 @@
     <!------------------------底部（footer）------------------------->
 
 
-<script src="../js/goodscart.js"></script>
-<?php include("./views/footer.php")?>
+<script src="js/goodscart.js"></script>
+<?php include("views/footer.php");?>
